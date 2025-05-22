@@ -27,7 +27,7 @@ export default function Gallery(){
   return(
     <section>
       <h1 style={{
-        fontSize: '24px',
+        fontSize: '30px',
         color: 'blue'
       }}>
         Ниже я хуячу все эти компоненты
