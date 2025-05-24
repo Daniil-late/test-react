@@ -79,7 +79,7 @@
 .content__blocks{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: space-between;
 }
 
@@ -88,10 +88,11 @@
 }
 
 .content__img{
-  border: 2px solid black;
+ 
   border-radius: 20px;
 }
 
 .content__text{
   font-size: 16px;
+  width: 80%;
 }

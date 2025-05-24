@@ -1,13 +1,13 @@
-export function Title(titleText){
+export function Title({data_text}){
     return(
-        <h1 className="content__title">{titleText}</h1>
+        <h1 className="content__title">{data_text}</h1>
     )
 }
 
 export default function BlockWithContent({imgSRC,textContent}){
     return(<div className="content__blocks">
         <div className="content__img">
-            <img src={imgSRC} alt="lion" width={'800px'} height={'800px'}></img>
+            <img src={imgSRC} alt="lion" width={'500px'} height={'300px'}></img>
         </div>
         <div className="content__text">
             <p className="textContent">{textContent}</p>
