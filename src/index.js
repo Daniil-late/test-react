@@ -6,6 +6,7 @@ import App from './App';
 import Navbar from './Blocks/Navbar'
 import reportWebVitals from './reportWebVitals';
 import Footer from './Blocks/Footer';
+import Content from './Blocks/Content';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,7 +16,7 @@ root.render(
   <React.StrictMode>
 
 <Navbar></Navbar>
-
+<Content></Content>
 <Footer></Footer>
   </React.StrictMode>
 );

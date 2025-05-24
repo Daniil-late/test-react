@@ -41,7 +41,7 @@
 #root{
   text-align: center;
 }
-/* НИЖЕ ПОД МОИ ПРОИЕКТЫ */
+/* НИЖЕ ПОД МОЙ ПРОИЕКТ. ДА МНЕ БЫЛО ЛЕНЬ ДЕЛАТЬ ОТДЕЛЬНЫЙ ФАЙЛ */
 .nav__list{
   list-style: none;
 }
@@ -66,4 +66,32 @@
   text-decoration: none;
   color: aliceblue;
 
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+  background-color: rgb(158, 131, 89);
+}
+
+.content__blocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.content__title{
+  font-size: 30px;
+}
+
+.content__img{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.content__text{
+  font-size: 16px;
 }
