@@ -2,22 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import './App.css'
+import './style/Content.css'
 import App from './App';
-import Navbar from './Blocks/Navbar'
 import reportWebVitals from './reportWebVitals';
-import Footer from './Blocks/Footer';
-import Content from './Blocks/Content';
+
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 
 root.render(
+  
   <React.StrictMode>
 
-<Navbar></Navbar>
-<Content></Content>
-<Footer></Footer>
+<App></App> 
   </React.StrictMode>
 );
 
