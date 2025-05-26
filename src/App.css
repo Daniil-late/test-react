@@ -46,6 +46,10 @@
   list-style: none;
 }
 
+.href_disable{
+display: none;
+}
+
 .footer{
   display: flex;
   flex-direction: column;
