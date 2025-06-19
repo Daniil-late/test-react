@@ -1,4 +1,4 @@
-import ContentItem from "../Blocks/ContentItem";
+import ContentItem from "../Blocks/ContentItem.jsx";
 import { useEffect } from "react";
 
 

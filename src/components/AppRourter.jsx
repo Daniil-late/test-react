@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Contact from "../Contact/Contact";
-import Home from "../Home/Home";
-import News from "../News/News";
+import Contact from "../Contact/Contact.jsx";
+import Home from "../Home/Home.jsx";
+import News from "../News/News.jsx";
 export default function AppRouter(){
 
     return(
